@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.one-third {
+  border-radius: 5px;
+  flex: 0 1 auto;
+  width: 31%;
+  text-align: center;
+  margin-bottom: 40px;
+  float: left;
+}
+
+/* image resize along with the browser window*/
+img {
+  max-width:100%;
+  height:auto;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.brand-name{
+  font-weight: bold;
+  text-align: justify;
+}
+
+.price{
+  font-weight: bold;
+}
+
+.strikethrough{
+  text-decoration: line-through;
+}
+
